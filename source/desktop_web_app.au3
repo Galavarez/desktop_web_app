@@ -12,8 +12,8 @@ Global $SETTING_MODE_APP = 1
 Global $SETTING_MODE_DEBUG = 0
 Global $SETTING_MODE_GLOBAL = 0
 Global $SETTING_MODE_KIOSK_PRINTING = 0
-Global $PHP_PATH = ".\..\php\php.exe"
-Global $BROWSER_PATH = ".\..\chromium\chrome.exe"
+Global $PHP_PATH = ".\..\_php\php.exe"
+Global $BROWSER_PATH = ".\..\_chromium\chrome.exe"
 Global $IP_AND_PORT_PHP
 Global $IP_AND_PORT_BROWSER
 Global $BROWSER_SETTING
