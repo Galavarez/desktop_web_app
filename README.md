@@ -18,16 +18,16 @@ Desktop Web App как понятно из названия, это програ
 **Структура каталогов для работы desktop_web_app**
 ```
 - Главная папка 
--- папка chromium portable (скачать можно тут https://chromium.woolyss.com/)
--- папка php (https://www.php.net/) файл php.ini взять из каталога php либо попробовать настроить самим
+-- папка _chromium portable (скачать можно тут https://chromium.woolyss.com/)
+-- папка _php (https://www.php.net/) файл php.ini взять из каталога php либо попробовать настроить самим
 -- папка с проектом (любое название на английском и без пробелов)
 ```
 
 **Пример:**
 ```
 -main
--- chromium
--- php
+-- _chromium (нижний подстрочник обязателен)
+-- _php (нижний подстрочник обязателен)
 -- www_1
 --- desktop_web_app.exe
 --- favicon.ico
