@@ -104,8 +104,10 @@ _FileCreate(".\..\index.html")
 $FO = FileOpen(".\..\index.html", 1)
 
 $scan = _FileListToArray(".\..\", "*", 2)
+FileWrite($FO, "<style>button { width:100%; height: 10%; font-size: xxx-large; margin-top: 50px; }</style>")
 For $i = 1 To $scan[0]
-	FileWrite($FO, "<h3><a href='/" & $scan[$i] & "/'>" & $scan[$i] & "</a></h3>")
+	;FileWrite($FO, "<h3><a href='/" & $scan[$i] & "/'>" & $scan[$i] & "</a></h3>")
+	FileWrite($FO, "<a href='/" & $scan[$i] & "/'><button>" & $scan[$i] & "</button></a>")
 Next
 ;_ArrayDisplay($scan, "asd")
 
